@@ -1,0 +1,7 @@
+CREATE TABLE investment (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    goal_name VARCHAR(255) NOT NULL,
+    target_amount DOUBLE NOT NULL,
+    current_amount DOUBLE NOT NULL,
+    target_date VARCHAR(255)
+);
