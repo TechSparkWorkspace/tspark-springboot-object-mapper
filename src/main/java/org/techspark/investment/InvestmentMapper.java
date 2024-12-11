@@ -13,8 +13,6 @@ public interface InvestmentMapper {
 
     @Mapping(source = "targetAmount", target = "targetAmount")
     @Mapping(source = "currentAmount", target = "currentAmount")
-//    @Mapping(target = "id", ignore = true)
-//    @Mapping(target = "targetDate", ignore = true)
     InvestmentDTO toInvestmentDto(Investment investment);
 
     List<InvestmentDTO> toInvestmentDtoList(List<Investment> investments);
